@@ -18,6 +18,7 @@ public class Main {
         manager.inputMessage();
         String message = manager.getInputMessage();
         manager.printMessage(message);
+        System.out.println();
 
     }
 }
