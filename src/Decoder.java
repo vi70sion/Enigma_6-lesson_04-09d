@@ -16,7 +16,7 @@ public class Decoder {
 
     public String decodingText(String cypher){
         String newPlainText = "";
-        for(int i = 2; i < cypher.length(); i += 2){
+        for(int i = 2; i < cypher.length()-1; i += 2){
             newPlainText += cypher.charAt(i);
         }
         return newPlainText;

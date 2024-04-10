@@ -13,6 +13,11 @@ public class Main {
         String plainText = decoder.getPlainText();
         System.out.println("PlainText: " + plainText);
 
+        IOManager manager = new IOManager();
+        manager.inputAction();
+        manager.inputMessage();
+        String message = manager.getInputMessage();
+        manager.printMessage(message);
 
     }
 }
