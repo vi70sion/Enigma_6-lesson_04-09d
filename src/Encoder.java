@@ -12,8 +12,16 @@ public class Encoder {
         return cypher;
     }
 
+    public String getPlainText() {
+        return plainText;
+    }
+
     public void setCypher(String cypher) {
         this.cypher = cypher;
+    }
+
+    public void setPlainText(String plainText) {
+        this.plainText = plainText;
     }
 
     public char randomChar(){
